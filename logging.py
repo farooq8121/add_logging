@@ -28,8 +28,12 @@ def getLogger(name):
     
     ####  getLogger('umar').warning("access_token generated")
     
+    ###This will create a new log file with the name as input
+    ### 2020-04-24 08:00:27, WARNING ,access_token generated,umar
+    
     ### logger.info("access_token generated",extra={'txnid': access_token,'code':'success','client_id':client_id,'client_ip': request.remote_addr}) 
 
+    
     
     
     
